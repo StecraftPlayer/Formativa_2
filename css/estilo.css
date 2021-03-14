@@ -1,0 +1,87 @@
+/* PATRONES GLOBALES DE CSS */
+
+/* Asignación de propiedad display: block; a etiquetas de estructura */
+header, main, section, footer, aside, figure, figcaption, nav, div { display: block; }
+
+/* Quitar margen por defecto varias etiquetas de HTML5 */
+body, h1, h2, h3, h4, h5, h6, img { margin: 0 ; display: inline-block;}
+
+body {width: 100%;}
+
+/* CSS Propio */
+
+/* Componente Header con Logo y Menú */
+
+header{ width: 100%;height: 500px; margin: 0; float: none; position: fixed; }
+header { width: 100%; height: 20%; display: block; margin: 0; float: none; position: absolute;}
+header article figure a img {width: 10%; padding-left: 10%;}
+
+
+/* Caja Main */
+main { width: 100%; height: 1200px; float: none ; position: relative;}
+
+main section#Empresa div#Ancla {width: 100%; height: 1px; margin: 0; float: none; position: absolute; top: -120px; left: 0; }
+
+main section#Empresa article { width: 1100px;
+    height: 520px;
+    margin: 0 auto;
+    float: none;
+    position: relative; padding-top: 200px; }
+main section#Empresa article figure {
+        width: 520px;
+        height: 520px;
+        margin: 0 100px 0 0;
+        float: left;
+        position: relative;}
+main section#Empresa article figure img {    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    display: block;}
+
+main section#Empresa article div#info {    width: 480px;
+    height: 520px;
+    margin: 0;
+    float: right;
+    position: relative;}
+
+main section#Empresa article div#info h2 { margin: 10px auto; font-size: 20px; position: relative; color: black; font-family: 'Montserrat', sans-serif;}
+main section#Empresa article div#info h1 { margin: 10px auto; font-size: 50px; position: relative; color: darkblue; font-family: 'Montserrat', sans-serif;}
+main section#Empresa article div#info h3 {margin: 10px auto; font-size: 20px; position: relative; color: black; font-family: Corbel Light; padding-bottom: 20px;}
+main section#Empresa article div#info a {width: 120px; height: auto; margin: 0; float: none; position: relative; display: block; text-decoration: none; color: #fff; background: #f3114f; font-weight: 600; font-size: 1em; line-height: 1em; text-align: center; padding: 12px 22px; border-radius: 25px; font-family: Arial;}
+
+main section#C4 {width: 100%;}
+main section#C4 nav { width: 1150px; height: auto; margin: 0 auto; position: relative; }
+main section#C4 nav a {width: 270px; height: 280px; float: none; position: relative; display: inline-block; text-align: center;}
+main section#C4 nav a h2 {text-align: center; font-family: arial; color: rgb(0, 0, 88);}
+main section#C4 nav a h3 {text-align: center; font-family: Corbel Light;  color: black;}
+main section#C4 nav a img {width: 35%; height: auto; padding: 30px; margin: 0; float: none; position: relative; display: block; padding-left: 80px;}
+
+/* Componente Footer con 4 columnas */
+
+footer { width: 100%; height: 600px; margin: 0 auto; float: none; position: relative; background: rgb(53,10,93); background: -moz-linear-gradient(top,  rgba(53,10,93,1) 0%, rgba(0,44,80,1) 100%); background: -webkit-linear-gradient(top,  rgba(53,10,93,1) 0%,rgba(0,44,80,1) 100%); background: linear-gradient(to bottom,  rgba(53,10,93,1) 0%,rgba(0,44,80,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#350a5d', endColorstr='#002c50',GradientType=0 ); }
+footer div#ancla-footer {width: 100%; height: 1px; margin: 0; float: none; position: absolute; top: -120px; left: 0;}
+
+footer div#C4-footer {width: 100%; text-align: left;}
+footer div#C4-footer div.cajas-footer{ width: 10%; height: 200px; margin-top: 100px; margin-left: 200px; float: left; position: relative;}
+
+footer div#C4-footer div.cajas-footer img {width: 50%;}
+footer div#C4-footer div.cajas-footer h3 {width: 150px; font-weight: 100; height: 500px; float: none; position: relative; display: inline-block; font-size: 20px; text-align: left; color: white; font-family: Calibri;}
+footer div#C4-footer div.cajas-footer h2 {width: 150px; float: none; position: relative; display: inline-block; text-align: left; font-size: 25px; color: white; font-family: arial;}
+
+footer div#C4-footer div.cajas-footer nav#links-contacto { width: 100%; height: 22px; display: block; margin: 0 auto 5px; float: none; position: relative;}
+footer article div#C4-footer div.cajas-footer nav#links-contacto a {
+    width: 100%;
+    height: 22px;
+    display: block;
+    margin: 0 auto 5px;
+    float: none;
+    position: relative;}
+
+footer div#C4-footer div.cajas-footer nav#links-contacto a i { width: 10%; height: auto;display: block; margin: 0 5px 5px 0;float: left;position: relative;padding: 3px 0 0 0;color: #8bc8f1;}
+footer div#C4-footer div.cajas-footer nav#links-contacto a span {width: 88%;height: auto;display: block;margin: 5px;float: left;position: relative;padding: 0;color: #fff;font-weight: 100; font-family: Calibri;}
+
+footer div#C4-footer div.cajas-footer nav#links-Social a i { Width: 10%; height: auto;display: block; margin: 0 20px 0 0;float: left;position: relative;padding: 3px 0 0 0;color: #8bc8f1;}
+
+footer .inferior-Footer p {padding-top: 100px; margin-left: 700px; display: block; text-align: center; color: white; font-family: Corbel Light;display: inline-block;}
